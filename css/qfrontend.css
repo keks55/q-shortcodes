@@ -1,0 +1,213 @@
+/*-------------------------------------------------------*/
+/*  = Button
+/*-------------------------------------------------------*/
+.q_btn,.q_btn_service{
+	display: inline-block;
+	background: #000;
+	padding: 7px 20px 8px;
+	text-align: center;
+    vertical-align: middle;
+    text-decoration: none !important;
+}
+.q_btn i{
+    margin-right: 7px;
+}
+
+/*-------------------------------------------------------*/
+/*  = Icons block
+/*-------------------------------------------------------*/
+.qicons{
+    display: block;
+    text-align: center;
+    margin: 0 5px 10px;
+    padding: 5px;
+    /*border: 1px solid #ccc;*/
+}
+.qicon {
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.qicon i{
+    color: red;
+}
+/*-------------------------------------------------------*/
+/*  = Toogle block
+/*-------------------------------------------------------*/
+.qtoogle{
+    display: block;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.toggle_title{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.toggle_title i{
+    margin-right: 12px;
+}
+.toggle_text{
+    display: none;
+    padding: 10px 15px;
+}
+.toggle_text.active{
+    border-top: 1px solid #ccc;
+}
+/*-------------------------------------------------------*/
+/*  = Columns
+/*-------------------------------------------------------*/
+.q, .q1, .q2, .q3, .q4, .q5, .q6, .q7, .q8, .q9, .q10, .q11, .q12{
+    float: left;
+    position: relative;
+}
+.q{ width: auto !important; }
+.q1{ width: 8.3333%; }
+.q2{ width: 16.6666%; }
+.q3{ width: 25%; }
+.q4{ width: 33.3333%; }
+.q5{ width: 41.6666%; }
+.q6{ width: 50%; }
+.q7{ width: 58.3333%; }
+.q8{ width: 66.6666%; }
+.q9{ width: 75%; }
+.q10{ width: 83.3333%; }
+.q11{ width: 91.6666%; }
+.q12{ width: 100%; }
+
+/*-------------------------------------------------------*/
+/*  = Pricing block                                  
+/*-------------------------------------------------------*/
+.q_service{
+    /*box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);*/
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 0px 5px 10px;
+}
+.q_service ul, .q_service ul li{
+    margin:0 !important;
+}
+.q_service h2,
+.q_service h3{
+    font: 28px Tahoma,Arial,Verdana,sans-serif;
+    background: #fff;
+    padding: 30px 5px;
+}
+.q_service ul.service{
+    display: table;
+    width: 100%;
+}
+.q_service ul li{
+    background: #fff;
+    padding: 15px 5px;
+    list-style-type: none !important;
+}
+.q_service ul li:nth-child(2n+1){
+   background: #faf1d5;
+}
+.q_service ul li.service_btn{
+    padding: 10px 0;
+}
+.service_btn{
+    padding: 7px 0px;
+}
+/*-------------------------------------------------------*/
+/*  = Tabs switch                                        
+/*-------------------------------------------------------*/
+.tabs{
+    display:inline-block;
+}
+.tabs ul,.tab-links li{
+    margin:0;
+    padding:0;
+}
+.tabs ul.tab-links li{
+    margin-left: 1px;
+}
+.tabs ul.tab-links,
+.tabs ul.tab-links li:first-child{
+    margin-left:0;
+}
+.tab-links li{
+    float:left;
+    margin-left: 0;
+    margin:0px 5px;
+    border: 1px solid #ccc;
+    border-bottom: none !important;
+    /*border-radius:3px;*/
+}
+.tab-links li.active{
+    z-index: 3;
+}
+.tabs ul.tab-links li{
+    list-style-type:none;
+}
+.tab-links a {
+    position: relative;
+    display:inline-block;
+    background:#d7d7d7;
+    font-size:15px;
+    padding: 8px 15px;
+    /*border-radius:2px 2px 0px 0px;*/
+    color:#4c4c4c;
+    transition:all linear 0.15s;
+    z-index: 1;
+}
+.tab-links a:hover {
+    background:#e0e0e0;
+    text-decoration:none;
+}
+.tab-links li.active a, 
+.tab-links li.active a:hover{
+    background: #fff;
+    color:#000;
+
+}
+.tab-content{
+    position: relative;
+    background: #fff;
+    margin-top: -7px;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    z-index: 2;
+}
+.tab{
+    display: none;
+}
+.active{
+    display: block;
+}
+
+/*-------------------------------------------------------*/
+/*  = Dividers
+/*-------------------------------------------------------*/
+.q_divider{
+    display: block;
+    margin: 10px 0;
+}
+.q_clear{
+    display: block;
+    margin-bottom: 5px;
+    clear:both;
+    height: 0;
+}
+.q_divider:after, .q_divider:before {
+    content: " ";
+    display: table;
+}
+.q_divider:after {
+    clear: both;
+}
+.q_divider:after, .q_divider:before {
+    content: " ";
+    display: table;
+}
+/*-------------------------------------------------------*/
+/*  Media max width 768px for mobile
+/*-------------------------------------------------------*/
+@media all and (max-width: 768px){ 
+	.q1, .q2, .q3, .q4, .q5, .q6, .q7, .q8, .q9, .q10, .q11, .q12{
+		width: 100%;
+	}
+}
