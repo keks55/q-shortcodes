@@ -116,9 +116,9 @@
 							}
 						}, // end icons block
 						{
-							text: 'Toogle',
+							text: 'Toggle',
 							onclick: function() {
-								editor.insertContent('[q_toogle title="Toogle title text"] Sample toggle text [/q_toogle]');
+								editor.insertContent('[q_Toggle title="Toggle title text"] Sample toggle text [/q_Toggle]');
 							}
 						}, // end tabs block
 						{
