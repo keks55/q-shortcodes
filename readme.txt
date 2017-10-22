@@ -4,9 +4,9 @@ License: GPL 3
 Donate link: http://keksus.com/donate.html
 Tags: shortcodes, shortcode, columns, grid
 Requires at least: 3.6
-Tested up to: 4.8.1
+Tested up to: 4.9
 Requires PHP: 5.3
-Stable tag: 4.8.1
+Stable tag: 4.9
 License: GPLv3 
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 

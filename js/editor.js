@@ -103,7 +103,7 @@
 											type: 'textbox',
 											name: 'icon_text',
 											label: 'Text',
-											value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend mauris turpis. Nam a dolor quis odio mattis feugiat sit amet a arcu. Suspendisse potenti. Curabitur ipsum arcu, laoreet ut condimentum in, malesuada quis lectus. Ut et congue elit. Vivamus lacus mi, egestas id mauris at, finibus euismod ipsum. Maecenas facilisis mauris eu massa volutpat commodo.</p>',
+											value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend mauris turpis. Nam a dolor quis odio mattis feugiat sit amet a arcu. Suspendisse potenti. Curabitur ipsum arcu, laoreet ut condimentum in, malesuada quis lectus. Ut et congue elit. Vivamus lacus mi, egestas id mauris at, finibus euismod ipsum. Maecenas facilisis mauris eu massa volutpat comodo.</p>',
 											multiline: true,
 											minWidth: 300,
 											minHeight: 250
