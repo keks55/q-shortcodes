@@ -34,11 +34,15 @@
 /*-------------------------------------------------------*/
 /*  = Toogle block
 /*-------------------------------------------------------*/
-.qtoogle{
+.qtoggle{
     display: block;
     background: #fff;
     border: 1px solid #ccc;
     margin-bottom: 10px;
+}
+.qtoggle p{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 .toggle_title{
     padding: 10px 15px;
@@ -207,7 +211,7 @@
 /*  Media max width 768px for mobile
 /*-------------------------------------------------------*/
 @media all and (max-width: 768px){ 
-	.q1, .q2, .q3, .q4, .q5, .q6, .q7, .q8, .q9, .q10, .q11, .q12{
+	.q,.q1, .q2, .q3, .q4, .q5, .q6, .q7, .q8, .q9, .q10, .q11, .q12{
 		width: 100%;
 	}
 }

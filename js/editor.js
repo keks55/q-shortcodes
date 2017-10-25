@@ -118,7 +118,7 @@
 						{
 							text: 'Toggle',
 							onclick: function() {
-								editor.insertContent('[q_Toggle title="Toggle title text"] Sample toggle text [/q_Toggle]');
+								editor.insertContent('[q_toggle title="Toggle title text"] Sample toggle text [/q_toggle]');
 							}
 						}, // end tabs block
 						{

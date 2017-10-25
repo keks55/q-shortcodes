@@ -1,4 +1,5 @@
 <?php
+// remove &nbsp;
 function fix_html( $content ){   
 	$array = array (
 		'&nbsp;' => '',
@@ -78,18 +79,18 @@ function q_service_shortcode( $atts, $content = null ){
 }
 add_shortcode('q_service', 'q_service_shortcode');
 
-// Toogle block
-function q_toogle_shortcode( $atts, $content = null ){
+// Toggle block
+function q_toggle_shortcode( $atts, $content = null ){
 	extract( shortcode_atts( array(
-		'title'    => 'Sample toogle title'
+		'title'    => 'Sample toggle title'
 	), $atts ));
-	$out  = '<div class="qtoogle">';
+	$out  = '<div class="qtoggle">';
 	$out .= '<div class="toggle_title"><i class="ion-plus"></i>'. esc_attr( $title ) .'</div>';
 	$out .= '<div class="toggle_text"><p>'. do_shortcode( wp_kses_post( $content ) ) .'</p></div>';
 	$out .= '</div>';
 	return $out;	
 }
-add_shortcode('q_toogle', 'q_toogle_shortcode');
+add_shortcode('q_toggle', 'q_toggle_shortcode');
 
 // Divider line
 function q_divider_shortcode(){

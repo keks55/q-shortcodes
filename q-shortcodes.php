@@ -17,7 +17,7 @@ if ( !defined( 'ABSPATH' ) ) die;
 register_activation_hook( __FILE__, 'keksus_q_activate' );
 
 //remove empty p tags
-remove_filter('the_content', 'wpautop');
+//remove_filter('the_content','wpautop');
 
 function keksus_q_activate() {
 	set_theme_mod('button_bg',     '#000');
