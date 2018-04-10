@@ -26,8 +26,8 @@ Activate plugin at "Plugins" administration page.
 
 ## Plugin page
 
-* [http://keksus.com/wordpress-plugins/q-shortcodes.html](http://keksus.com/wordpress-plugins/q-shortcodes.html)
+* [http://keksus.com/q-shortcodes.html](http://keksus.com/q-shortcodes.html)
 
 ## Live Demo
 
-* [http://keksus.com/wordpress-plugins/q-shortcodes-demo.html](http://keksus.com/wordpress-plugins/q-shortcodes-demo.html)
+* [http://keksus.com/q-shortcodes-demo.html](http://keksus.com/q-shortcodes-demo.html)
